@@ -15,26 +15,30 @@ header {
 nav {
   background-color: #e4dddd;
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
   text-decoration: none;
-  margin-right: 10px;
+  justify-content: space-around;
   line-height: 2;
   font-size: 25px;
-  color: #381cb6;
+  color: #359a80;
 }
 
-/* Estilos para o conteúdo principal */
 main {
   padding: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #333131;
 
 }
 
-/* Estilos para o rodapé */
+h2 {
+  text-align: center;
+}
+
 footer {
   background-color: #333;
   color: #fff;
@@ -64,7 +68,7 @@ footer {
     align-items: flex-end;
     
     float: right; /* Alinha a imagem à direita */
-    margin-left: 10px; /* Adiciona uma margem à esquerda da imagem para evitar sobreposição de texto */
+     margin-left: 10px; /*Adiciona uma margem à esquerda da imagem para evitar sobreposição de texto */
 }
 
 table {
