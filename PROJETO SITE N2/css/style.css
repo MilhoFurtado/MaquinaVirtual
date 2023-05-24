@@ -66,3 +66,12 @@ footer {
     float: right; /* Alinha a imagem à direita */
     margin-left: 10px; /* Adiciona uma margem à esquerda da imagem para evitar sobreposição de texto */
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
